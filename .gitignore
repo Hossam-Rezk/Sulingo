@@ -1,0 +1,41 @@
+# ==========================================
+# Python & Backend
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+sulingo_env/
+.env
+.pytest_cache/
+
+# Large Model Files
+*.pkl
+*.task
+*.h5
+*.tflite
+
+# ==========================================
+# Node.js & Frontend
+# ==========================================
+node_modules/
+dist/
+build/
+.npm/
+
+# ==========================================
+# Large Media Files (Videos)
+# ==========================================
+frontend/public/videos/
+frontend/public/quiz/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db

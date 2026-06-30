@@ -1,0 +1,107 @@
+.statsSection {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: #24335B;
+}
+
+.statsSection::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.topWave {
+  display: block;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.topWave svg {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+.statsHeader {
+  background: #24335B;
+  text-align: center;
+  padding: 30px 20px 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.statsTitle {
+  font-size: 44px;
+  font-weight: 800;
+  margin: 0;
+  color: white;
+}
+
+.statsTitle span {
+   color: white;
+}
+
+.statsContent {
+  background: #24335B;
+  color: white;
+  padding: 20px 100px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  gap: 50px;
+  margin: 0;
+}
+
+.statBox {
+  max-width: 250px;
+  text-align: center;
+}
+
+.statBox h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: #FF7A2F;
+}
+
+.statBox h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.statBox h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 0;
+  opacity: 0.85;
+}
+
+.statBox p {
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin: 0;
+}
+
+.bottomWave {
+  display: block;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.bottomWave svg {
+  display: block;
+  width: 100%;
+  height: 140px;
+}

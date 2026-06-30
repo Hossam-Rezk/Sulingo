@@ -1,0 +1,313 @@
+/* QUESTION PAGE */
+
+.questionPage {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f2a4d 0%, #24335B 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.questionCard {
+  background: white;
+  border-radius: 24px;
+  padding: 50px 40px;
+  max-width: 560px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.questionLogo {
+  height: 80px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.questionCard h1 {
+  font-size: 28px;
+  color: #1f2a4d;
+  font-weight: 800;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.questionCard p {
+  color: #6b6b8a;
+  font-size: 16px;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.questionButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.choiceBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 25px 20px;
+  border-radius: 16px;
+  border: 2px solid #e5e7eb;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choiceBtn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testBtn:hover {
+  border-color: #24335B;
+  background: #f0f3ff;
+}
+
+.beginnerBtn:hover {
+  border-color: #FF7A2A;
+  background: #fff5ef;
+}
+
+.choiceIcon {
+  font-size: 32px;
+}
+
+.choiceTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f2a4d;
+}
+
+.choiceSub {
+  font-size: 12px;
+  color: #6b6b8a;
+}
+
+/* LEVELS PAGE */
+
+.levelsPage {
+  min-height: 100vh;
+  background: #f6f7fb;
+}
+
+.levelsContainer {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.levelsTitle {
+  font-size: 42px;
+  font-weight: 800;
+  color: #1f2a4d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.levelsSubtitle {
+  text-align: center;
+  color: #6b6b8a;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+/* STATS BAR */
+
+.statsBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  padding: 20px 40px;
+  margin-bottom: 40px;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  justify-content: center;
+}
+
+.statEmoji {
+  font-size: 28px;
+}
+
+.statValue {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1f2a4d;
+  margin: 0;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: #6b6b8a;
+  margin: 0;
+}
+
+.statDivider {
+  width: 1px;
+  height: 40px;
+  background: #e5e7eb;
+  margin: 0 20px;
+}
+
+/* LEVEL CARD */
+
+.levelsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.levelCard {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.levelCard.locked {
+  opacity: 0.6;
+}
+
+.levelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.levelCard.locked .levelHeader {
+  cursor: not-allowed;
+}
+
+.levelLeft {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.levelEmoji {
+  font-size: 36px;
+}
+
+.levelTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.levelProgress {
+  font-size: 13px;
+  opacity: 0.85;
+  margin: 0;
+}
+
+.levelRight {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.progressBar {
+  width: 100px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
+.levelArrow {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* LEVEL COLORS */
+
+.levelBlue .levelHeader {
+  background: linear-gradient(135deg, #4a6cf7, #24335B);
+}
+
+.levelOrange .levelHeader {
+  background: linear-gradient(135deg, #ff9d4d, #FF7A2A);
+}
+
+.levelPink .levelHeader {
+  background: linear-gradient(135deg, #d89aa5, #c07c87);
+}
+
+/* LESSONS */
+
+.lessonsList {
+  background: white;
+  padding: 10px 0;
+}
+
+.lessonItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 30px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: 0.2s;
+}
+
+.lessonItem:last-child {
+  border-bottom: none;
+}
+
+.lessonItem:hover {
+  background: #f9f9ff;
+}
+
+.lessonItem.lessonDone {
+  opacity: 0.7;
+}
+
+.lessonIcon {
+  font-size: 20px;
+}
+
+.lessonTitle {
+  flex: 1;
+  font-size: 15px;
+  color: #1f2a4d;
+  font-weight: 500;
+}
+
+.startLesson {
+  background: #FF7A2A;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.startLesson:hover {
+  background: #e56a1f;
+}

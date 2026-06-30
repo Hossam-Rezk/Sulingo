@@ -1,0 +1,119 @@
+.contactSection{
+padding:80px 20px;
+background:#f6f7fb;
+min-height:80vh;
+}
+
+.contactTitle{
+  text-align:center;
+  font-size:48px;
+  font-weight:800;
+  color:#24335B;
+}
+
+.contactTitle span{
+  color: #FF7A2F;
+}
+
+.contactSubtitle{
+  text-align:center;
+  margin-top:10px;
+  color: #24335B;
+  margin-bottom:60px;
+}
+
+.contactForm label{
+  color: #1a2640;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.contactContainer{
+max-width:1100px;
+margin:auto;
+display:flex;
+gap:60px;
+align-items:flex-start;
+}
+
+.contactInfo{
+flex:1;
+}
+
+.contactInfo h2{
+  font-size:26px;
+  margin-bottom:25px;
+  color: #24335B;
+}
+
+.infoItem{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:20px;
+}
+
+.iconBox{
+width:45px;
+height:45px;
+background:#ffe7d7;
+color:#FF7A2F;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:12px;
+font-size:20px;
+}
+
+.label{
+  font-size:14px;
+  color:#24335B;
+}
+
+.value{
+  font-weight:600;
+  color: #24335B;
+}
+
+.contactForm{
+flex:1;
+background:white;
+padding:30px;
+border-radius:16px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.contactForm form{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.contactForm input,
+.contactForm textarea{
+  padding:12px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  background: white;
+  color: #24335B;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: rgba(26, 38, 64, 0.5);
+}
+
+.contactForm button{
+margin-top:10px;
+background:#FF7A2F;
+color:white;
+border:none;
+padding:14px;
+border-radius:30px;
+font-weight:600;
+cursor:pointer;
+}
+
+.contactForm button:hover{
+opacity:.9;
+}

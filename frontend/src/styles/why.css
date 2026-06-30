@@ -1,0 +1,89 @@
+.whySection{
+padding:120px 80px;
+background:#f6f7fb;   /* الخلفية البيضاء */
+text-align:center;
+}
+
+.whyTitle{
+font-size:48px;
+color:#1f2a4d;
+margin-bottom:20px;
+}
+
+.whySubtitle{
+color:#6b6b8a;
+font-size:20px;
+max-width:700px;
+margin:auto;
+line-height:1.6;
+margin-bottom:70px;
+}
+
+/* CARDS */
+
+.whyCards{
+display:flex;
+justify-content:center;
+gap:35px;
+flex-wrap:nowrap;
+}
+
+/* CARD */
+
+.card{
+width:280px;
+min-height:360px;
+padding:40px 30px;
+border-radius:30px;
+color:white;
+text-align:left;
+box-shadow:0 15px 30px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+margin-top:20px;
+margin-bottom:15px;
+font-size:20px;
+}
+
+.card p{
+line-height:1.7;
+font-size:15px;
+}
+
+/* ICON */
+
+.icon{
+font-size:28px;
+background:white;
+width:55px;
+height:55px;
+border-radius:15px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:#1f2a4d;
+}
+
+/* COLORS */
+
+.blue{
+background:linear-gradient(160deg,#4a6cf7,#273469);
+}
+
+.orange{
+background:linear-gradient(160deg,#ff9d4d,#ff7a2a);
+}
+
+.pink{
+background:linear-gradient(160deg,#d89aa5,#c07c87);
+}
+
+.dark{
+background:linear-gradient(160deg,#2e3f75,#1f2a4d);
+}
